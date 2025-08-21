@@ -11,6 +11,8 @@ header {
     color: #212020;
     border-radius: 20px;
     margin: 20px;
+    box-shadow: 0 4px 10px
+    rgba(0, 0, 0, 1)
 }
 h1 {
     margin: 0;
@@ -35,4 +37,37 @@ p {
 }
 .menu {
     text-decoration: underline;
+}
+main {
+    
+    border-radius: 20px;
+    margin: 20px;
+}
+.menu-category {
+    margin-bottom: 40px;
+}
+.menu-category h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #361C0F;
+    text-decoration: underline;
+}
+.menu-item {
+    background-color: #F8F1E1;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 10px
+    rgba(0, 0, 0, 1)
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.price {
+    display: flex;
+    flex-direction: column;
 }
