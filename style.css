@@ -12,3 +12,27 @@ header {
     border-radius: 20px;
     margin: 20px;
 }
+h1 {
+    margin: 0;
+    font-size: 60px;
+    color: #361C0F;
+    font-family: cursive;
+}
+p {
+    font-size: 30px;
+    color: #361C0F;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+.navbar a {
+    color: #414141;
+    text-decoration: none;
+}
+.menu {
+    text-decoration: underline;
+}
